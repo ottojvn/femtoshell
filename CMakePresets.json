@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "Debug",
+      "buildType": "Debug",
+      "inherits": ["Release"]
+    },
+    {
+      "name": "Release",
+      "cmakeFlags": [
+        "-DCMAKE_BUILD_TYPE=Release"
+      ]
+    }
+  ]
+}
